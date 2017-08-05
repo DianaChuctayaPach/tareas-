@@ -1,0 +1,53 @@
+body{
+    background-image: image("img/fondo.jpg");
+}
+h1{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 85px;
+    text-shadow: 0 0 3px purple;
+
+}
+select{
+    margin:10px;
+    padding:10px 35px;
+    border-radius: 5px;
+    background: #FFDB4B;
+    color:#0A24B2;
+    font-family: "Homer Simpson", cursive;
+    border: 2px solid #4CAF50;
+
+}
+img{
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    padding:10px;
+
+}
+.image{
+    width: 200px;
+    height: 200px;
+    margin: 18px;
+}
+div {
+    background-color:transparent;
+    font-weight: bold;
+    position: relative;
+    -webkit-animation: mymove 10s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 10s infinite;
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+
+
